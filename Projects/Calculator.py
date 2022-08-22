@@ -8,7 +8,7 @@ def main():
             self.ini()
 
         def clear(self):
-            system("cls" if name is "nt" else "clear")
+            system("cls" if name == "nt" else "clear")
 
         def ini(self):
             print("\nCalculator terminal app")
