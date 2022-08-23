@@ -1,5 +1,11 @@
 from os import _exit
 from sys import exit
+
+# External package : via
+# python3 -m pip install --upgrade pip
+# python3 -m pip install --upgrade Pillow
+# Source : https://pillow.readthedocs.io/en/stable/installation.html
+
 from PIL import Image
 
 
