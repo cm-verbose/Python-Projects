@@ -2,6 +2,10 @@ from os import _exit
 from sys import exit
 from PIL import Image
 
+# External package : via
+# python3 -m pip install --upgrade pip
+# python3 -m pip install --upgrade Pillow
+# Source : https://pillow.readthedocs.io/en/stable/installation.html
 
 def main():
     class Thing():
