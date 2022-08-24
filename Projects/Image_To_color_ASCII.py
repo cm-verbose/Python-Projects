@@ -10,7 +10,7 @@ from PIL import Image
 
 
 def main():
-    class Thing():
+    class App():
         def __init__(self):
             self.ini()
 
@@ -57,14 +57,14 @@ def main():
                 </head><body>{final}</body></html>"""
             )
 
-    Thing()
+    App()
 
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("Ended...")
+        print("[Ended...]")
         try:
             exit()
         except SystemExit:
