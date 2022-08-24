@@ -8,7 +8,7 @@ from PIL import Image
 # Source : https://pillow.readthedocs.io/en/stable/installation.html
 
 def main():
-    class Thing():
+    class App():
         def __init__(self):
             self.ini()
 
@@ -45,14 +45,14 @@ def main():
             Target = open(f"{x}_ASCII.txt", "w", encoding="utf-8")
             Target.write(final)
 
-    Thing()
+    App()
 
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("Ended...")
+        print("[Ended...]")
         try:
             exit()
         except SystemExit:
